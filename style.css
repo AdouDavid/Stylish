@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/* UNIVERSAL STYLING */
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +12,6 @@
 input[type="checkbox"] {
   display: none;
 }
-
-/* HEADER STYLING */
 
 header {
   padding: 1em;
@@ -234,6 +231,56 @@ header .main-header {
 .products-1 .product-text {
   display: flex;
   justify-content: space-between;
+}
+
+footer {
+  background-color: #e4e4e4;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.footer-column ul {
+  list-style-type: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  color: #000;
+}
+
+.footer-bottom {
+  text-align: center;
+
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
 }
 
 @media only screen and (max-width: 834px) {
